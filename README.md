@@ -2,9 +2,11 @@
 Magento2 automated docker installation
 
 # Checklist
-Ensure you have composer installed and available in your local path
-
+- Ensure you have composer installed and available in your local path
 If you do not have composer installed, refer to https://getcomposer.org/download/ to install composer
+
+- Ensure you have an up and running installation of docker, if not refer to
+https://docs.docker.com/get-started/
 
 # Setup
 
