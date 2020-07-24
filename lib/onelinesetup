@@ -1,11 +1,11 @@
 #!/bin/bash
 DOMAIN=${1:-magento2.test}
 
-lib/template | bash
+curl -s https://raw.githubusercontent.com/KiprotichMaritim/magento2-docker/master/lib/template | bash
 echo "Downloading the latest stable version of Magento from Magento Repo"
 bin/download $VERSION
 
 echo "Your system password has been requested to add an entry to /etc/hosts..."
-//echo "127.0.0.1 ::1 $DOMAIN" | sudo tee -a /etc/hosts
+echo "127.0.0.1 ::1 $DOMAIN" | sudo tee -a /etc/hosts
 
-//bin/setup $DOMAIN
+bin/setup $DOMAIN
