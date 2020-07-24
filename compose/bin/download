@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Downloading latest Magento version to ./src"
+mkdir -p src
+composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition src
+

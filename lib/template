@@ -1,0 +1,4 @@
+#!/bin/bash
+mv compose/* ./
+mv compose/.vscode ./
+rm -rf compose .git
