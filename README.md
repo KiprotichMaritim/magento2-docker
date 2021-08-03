@@ -16,7 +16,7 @@ https://docs.docker.com/get-started/
 Run this automated one-liner from the directory you want to install your project.
 
 ```bash
-curl -s https://raw.githubusercontent.com/KiprotichMaritim/magento2-docker/master/lib/onelinesetup | bash -s -- magento2.test 2.3.5-p1
+curl -s https://raw.githubusercontent.com/medi-pro/magento2-docker/master/lib/onelinesetup | bash -s -- magento2.test 2.4.1
 ```
 ### Composer Authentication
 

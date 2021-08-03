@@ -1,7 +1,7 @@
 #!/bin/bash
 DOMAIN=${1:-magento2.test}
 
-curl -s https://raw.githubusercontent.com/KiprotichMaritim/magento2-docker/master/lib/template | bash
+curl -s https://raw.githubusercontent.com/medi-pro/magento2-docker/master/lib/template | bash
 echo "Downloading the latest stable version of Magento from Magento Repo"
 bin/download $VERSION
 
